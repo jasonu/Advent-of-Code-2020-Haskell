@@ -111,7 +111,7 @@ ppPassport pass = (case (validatePassport pass) of
 
 main :: IO ()
 main = do
-  input <- readFile "input4.txt"
+  input <- readFile "input04.txt"
   print
     . length
     . filter (== True)
